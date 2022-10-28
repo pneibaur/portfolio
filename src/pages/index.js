@@ -5,7 +5,7 @@ import Seo from "../components/seo"
 const IndexPage = () => {
   return (
     <div className="app">
-      <Layout>
+      <Layout pageTitle="Welcome">
         <h2>This still works!</h2>
       </Layout>
     </div>

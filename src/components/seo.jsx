@@ -4,7 +4,7 @@ import useSiteMetadata from './useSiteMetadata'
 const Seo = ({title}) => {
     const data = useSiteMetadata()
     
-    return <title>{title} | {data}</title>
+    return <title>{data} | {title}</title>
 }
 
 export default Seo

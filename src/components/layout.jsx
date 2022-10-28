@@ -10,7 +10,7 @@ import {
 from './layout.module.css'
 
 // children is what allows other things to render inside this layout component!
-const Layout = ({children}) => {
+const Layout = ({pageTitle, children}) => {
     return (
         <div className={container}>
             <header>
@@ -24,7 +24,7 @@ const Layout = ({children}) => {
                 </nav>
             </header>
             <main>
-                <h1 className={heading}>My portfolio webiste</h1>
+                <h1 className={heading}>{pageTitle}</h1>
                 {children}
             </main>
             <footer>
