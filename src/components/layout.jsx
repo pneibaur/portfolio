@@ -1,34 +1,38 @@
 import * as React from 'react'
-import { Link } from 'gatsby'
 import Resume from 'url-loader?name=Phil-Neibaur-Resume.pdf!../../files/Resume.pdf'
 import "./styles.scss"
+import 'bootstrap/dist/css/bootstrap.min.css'
+import { Container, Nav, Navbar } from 'react-bootstrap';
 
 
 // children is what allows other things to render inside this layout component!
-const Layout = ({pageTitle, children}) => {
+const Layout = ({ pageTitle, children }) => {
 
     return (
-        <div className="container">
+        <Container fluid>
             <header className='header'>
-                <nav className="navbar">
-                    <ul className="navUl">
-                        <li className="navLi"><Link className='linkItem' to='/'>HOME</Link></li>
-                        <li className="navLi"><Link className='linkItem' to='/tech'>TECH</Link></li>
-                        <li className="navLi"><Link className='linkItem' to='/about'>ABOUT</Link></li>
-                        <li className="navLi"><Link className='linkItem' to='/projects'>PROJECTS</Link></li>
-                        <li className="navLi"><Link className='linkItem' to='/contact'>CONTACT</Link></li>
-                        <li className='navLi'><a className="linkItem aTag" href={Resume} download>RESUME</a></li>
-                    </ul>
-                </nav>
+                <Navbar expand='sm'>
+                    <Navbar.Toggle aria-controls='my-nav'/>
+                    <Navbar.Collapse id='my-nav' className='justify-content-center'>
+                        <Nav >
+                            <Nav.Link className='text-light' href='/' >HOME</Nav.Link>
+                            <Nav.Link className='text-light' href='/about' >ABOUT</Nav.Link>
+                            <Nav.Link className='text-light' href='#' >TECH</Nav.Link>
+                            <Nav.Link className='text-light' href='/projects' >PROJECTS</Nav.Link>
+                            <Nav.Link className='text-light' href='#' >CONTACT</Nav.Link>
+                            <Nav.Link className='text-light' href={Resume} download >RESUME</Nav.Link>
+                        </Nav>
+                    </Navbar.Collapse>
+                </Navbar>
             </header>
             <main className="layoutMain">
-                <h1 className="mainH1">{pageTitle}</h1>
+                <h1 className="pageTitle">{pageTitle}</h1>
                 {children}
             </main>
             <footer className='page-footer'>
                 <p>My footer for now</p>
             </footer>
-        </div>
+        </Container>
     )
 }
 
