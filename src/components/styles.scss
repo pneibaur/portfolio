@@ -40,19 +40,29 @@ body {
     flex: 1 0 auto;
     text-align: center;
 }
+
 .pageTitle {
     font-size: 5em;
     font-weight: 500;
     color: $sky;
 }
 
-.projectImage{
-    max-width: 400px;
-    height: auto;
-}
-
 .page-footer {
     color: $sky;
     margin: .5em auto;
     text-align: center;
+}
+
+.rCard {
+    color: $sky;
+    background-color: rgba(0, 0, 0, 0.1) !important;
+}
+.rCardText {
+    color: $sand;
+}
+
+.rLink {
+    text-decoration: inherit;
+    text-decoration: none;
+    color: $goldYellow;
 }
