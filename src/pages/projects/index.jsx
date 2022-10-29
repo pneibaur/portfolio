@@ -5,7 +5,8 @@ import { graphql, Link } from 'gatsby'
 
 const ProjectsPage = ({data}) => {
     return (
-        <Layout>
+        <Layout pageTitle="My Projects">
+          <br /><hr /><br />
             {data.allMdx.nodes.map((node) => {
                 return (
                     <article key={node.id}>
@@ -18,10 +19,6 @@ const ProjectsPage = ({data}) => {
                     </article>
                 )
             })}
-            <h1>Projects Page</h1>
-            <article>
-
-            </article>
         </Layout>
     )
 }

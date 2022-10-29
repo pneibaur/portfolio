@@ -5,8 +5,16 @@ import Seo from "../components/seo"
 const IndexPage = () => {
   return (
     <div className="app">
-      <Layout pageTitle="Welcome">
-        <h2>This still works!</h2>
+      <Layout pageTitle="PHILLIP NEIBAUR">
+        <br/>
+        <p className="pUnderline">
+          FULL
+          <br />
+          STACK
+          <br />
+          ENGINEER
+          <br />
+        </p>
       </Layout>
     </div>
   )
