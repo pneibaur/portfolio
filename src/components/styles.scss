@@ -1,8 +1,12 @@
 $charcoal: #2c3531;
 $aquamarine: #116466;
+$tAquamarine: rgba(17, 101, 102, 0.8);
 $sand: #d9b08c;
 $tan: #ffcb9a;
-$sky: #d1e8e2;
+$sky: #a4e0ef;
+$purpleShirt: #3a2a56;
+$tPurpleShirt: rgba(58, 42, 86, 0.8);
+$goldYellow: #fbbf2c;
 
 * {
     margin: 0;
@@ -12,7 +16,7 @@ $sky: #d1e8e2;
 
 body {
     background-color: #2c3531;
-    background: linear-gradient(210deg, $tan, $aquamarine);
+    background: linear-gradient(210deg, $tAquamarine, $tPurpleShirt), url("../images/abstractWave.jpeg");
     background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
@@ -32,15 +36,20 @@ body {
 
 .layoutMain {
     min-height: 100vh;
-    color: $sky;
+    color: $goldYellow;
     flex: 1 0 auto;
     text-align: center;
 }
 .pageTitle {
     font-size: 5em;
     font-weight: 500;
+    color: $sky;
 }
 
+.projectImage{
+    max-width: 400px;
+    height: auto;
+}
 
 .page-footer {
     color: $sky;

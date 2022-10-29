@@ -10,6 +10,7 @@ const IndexPage = () => {
       <Container>
         <Row>
           <Col xs={6}>
+            <br/><br/>
             <h2>
               FULL
               <hr />

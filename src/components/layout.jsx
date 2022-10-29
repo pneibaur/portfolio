@@ -13,7 +13,7 @@ const Layout = ({ pageTitle, children }) => {
             <header className='header'>
                 <Navbar expand='sm'>
                     <Navbar.Toggle aria-controls='my-nav'/>
-                    <Navbar.Collapse id='my-nav' className='justify-content-center'>
+                    <Navbar.Collapse id='my-nav' className='justify-content-end'>
                         <Nav >
                             <Nav.Link className='text-light' href='/' >HOME</Nav.Link>
                             <Nav.Link className='text-light' href='/about' >ABOUT</Nav.Link>
@@ -27,6 +27,7 @@ const Layout = ({ pageTitle, children }) => {
             </header>
             <main className="layoutMain">
                 <h1 className="pageTitle">{pageTitle}</h1>
+                <hr />
                 {children}
             </main>
             <footer className='page-footer'>
