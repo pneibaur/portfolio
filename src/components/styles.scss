@@ -23,7 +23,7 @@ body {
     min-height: 100vh;
 }
 
-// HEADER && NAV
+// LAYOUT
 .navbar {
     min-height: 2em;
     font-size: 1.5em;
@@ -48,6 +48,13 @@ body {
     text-align: center;
 }
 
+.footerLogo {
+    max-width: 30px;
+    height: auto;
+    margin: 0 .25em;
+}
+
+// STYLE CARDS
 .rCard {
     color: $sky;
     background-color: rgba(0, 0, 0, 0.1) !important;
@@ -62,4 +69,16 @@ body {
     text-decoration: inherit;
     text-decoration: none;
     color: $goldYellow;
+}
+
+// OTHER STUFF
+.h40 {
+    width: 40%;
+    margin: 1em auto;
+    height: 10px;
+}
+
+.h50 {
+    width: 50%;
+    margin: 1em auto;
 }
