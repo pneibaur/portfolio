@@ -46,12 +46,19 @@ const TechStack = () => {
                 <Col xs={12} md={4}>
                     <h2>Databases</h2>
                     <hr className="h50" />
-                    SQL, MongoDB, Mongoose
+                    <StaticImage className='techLogo' src='../images/logos/databases/sqlLogo.png' alt='postgreSQL-logo' />
+                    <StaticImage className='techLogo' src='../images/logos/databases/mongodbLogo.png' alt='mongoDB-logo' />
+                    <StaticImage className='techLogo' src='../images/logos/databases/mongooseLogo.png' alt='mongoose-logo' />
                 </Col>
                 <Col xs={12} md={4}>
                     <h2>Skills</h2>
                     <hr className="h50" />
-                    Sass, Git & GitHub, Terminal, Firebase, Netlify, Azure, Heroku
+                    <StaticImage className='techLogo' src='../images/logos/skills/gitLogo.png' alt='git-logo' />
+                    <StaticImage className='techLogo' src='../images/logos/skills/sassLogo.png' alt='git-logo' />
+                    <StaticImage className='techLogo' src='../images/logos/skills/firebaseLogo.png' alt='git-logo' />
+                    <StaticImage className='techLogo' src='../images/logos/skills/herokuLogo.png' alt='git-logo' />
+                    <StaticImage className='techLogo' src='../images/logos/skills/netlifyLogo.png' alt='git-logo' />
+                    <StaticImage className='techLogo' src='../images/logos/skills/azureLogo.png' alt='azure-logo' />
                 </Col>
             </Row>
         </Layout>
