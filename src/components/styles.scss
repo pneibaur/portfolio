@@ -1,12 +1,12 @@
 $charcoal: #2c3531;
 $aquamarine: #116466;
-$tAquamarine: rgba(17, 101, 102, 0.8);
 $sand: #d9b08c;
 $tan: #ffcb9a;
 $sky: #a4e0ef;
 $purpleShirt: #3a2a56;
-$tPurpleShirt: rgba(58, 42, 86, 0.8);
 $goldYellow: #fbbf2c;
+$tAquamarine: rgba(17, 101, 102, 0.8);
+$tPurpleShirt: rgba(58, 42, 86, 0.8);
 
 * {
     margin: 0;
@@ -21,22 +21,17 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
-    // margin: 0 auto;
-    // display: flex;
-    // flex-direction: column;
-    // max-width: 700px;
 }
 
 // HEADER && NAV
 .navbar {
     min-height: 2em;
     font-size: 1.5em;
-    // margin: .5em 0;
 }
 
 .layoutMain {
     min-height: 100vh;
-    color: $goldYellow;
+    color: $tan;
     flex: 1 0 auto;
     text-align: center;
 }
@@ -57,9 +52,11 @@ body {
     color: $sky;
     background-color: rgba(0, 0, 0, 0.1) !important;
 }
+
 .rCardText {
     color: $sand;
 }
+
 
 .rLink {
     text-decoration: inherit;

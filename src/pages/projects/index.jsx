@@ -2,7 +2,7 @@ import * as React from 'react'
 import Layout from '../../components/layout'
 import Seo from '../../components/seo'
 import { graphql } from 'gatsby'
-import { Row, Col, Card } from "react-bootstrap"
+import { Row, Col, Card, Badge } from "react-bootstrap"
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 
 const ProjectsPage = ({ data }) => {
@@ -24,6 +24,17 @@ const ProjectsPage = ({ data }) => {
                     <Card.Text className='rCardText' as='h4'>"{node.frontmatter.flair}"</Card.Text>
                     <hr />
                     <Card.Text>{node.frontmatter.description}</Card.Text>
+                    <hr />
+                    <Card.Text><h5>Technologies used: </h5>
+                      {node.frontmatter.techologies_used.map((item) => {
+                        return (
+                          <>
+                          <Badge bg='none'>{item}</Badge>
+                          <span>{"  "}</span>
+                          </>
+                        )
+                      })}
+                    </Card.Text>
                     <hr />
                     <Card.Link className='rLink' rel="noreferrer" target='_blank' href={node.frontmatter.git_repo}>
                       GitHub</Card.Link>
@@ -54,6 +65,17 @@ const ProjectsPage = ({ data }) => {
                     <Card.Text className='rCardText' as='h4'>"{node.frontmatter.flair}"</Card.Text>
                     <hr />
                     <Card.Text>{node.frontmatter.description}</Card.Text>
+                    <hr />
+                    <Card.Text> <h5>Technologies used: </h5>
+                      {node.frontmatter.techologies_used.map((item) => {
+                        return (
+                          <>
+                          <Badge bg='none'>{item}</Badge>
+                          <span>{"  "}</span>
+                          </>
+                        )
+                      })}
+                    </Card.Text>
                     <hr />
                     <Card.Link className='rLink' rel="noreferrer" target='_blank' href={node.frontmatter.git_repo}>
                       GitHub</Card.Link>

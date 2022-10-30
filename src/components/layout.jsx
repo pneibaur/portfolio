@@ -19,7 +19,6 @@ const Layout = ({ pageTitle, children }) => {
                             <Nav.Link className='text-light' href='/about' >ABOUT</Nav.Link>
                             <Nav.Link className='text-light' href='#' >TECH</Nav.Link>
                             <Nav.Link className='text-light' href='/projects' >PROJECTS</Nav.Link>
-                            <Nav.Link className='text-light' href='#' >CONTACT</Nav.Link>
                             <Nav.Link className='text-light' href={Resume} download >RESUME</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
@@ -31,7 +30,7 @@ const Layout = ({ pageTitle, children }) => {
                 {children}
             </main>
             <footer className='page-footer'>
-                <p>My footer for now</p>
+                <p>My contact info will go here: GitHub, LinkedIn, gmail</p>
             </footer>
         </Container>
     )
