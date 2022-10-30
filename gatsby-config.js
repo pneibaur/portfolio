@@ -10,5 +10,13 @@ module.exports = {
       "path": `${__dirname}/projects`
     },
     __key: "projects"
-  }]
+  }, {resolve: 'gatsby-plugin-manifest',
+  options: {
+    "name": "GatsbyJS",
+    "short_name": "GatsbyJS",
+    "start_url": "/",
+    "icon": "src/images/gatsby-icon.png",
+  }
+},
+]
 };
