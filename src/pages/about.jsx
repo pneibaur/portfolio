@@ -8,9 +8,6 @@ const AboutPage = () => {
     return (
         <Layout pageTitle="👋🏼 HELLO THERE">
             <Row>
-                <h1>AND WELCOME!</h1>
-            </Row>
-            <Row>
                 <Col xs={12} md={6}>
                     <StaticImage src='../images/classicProfile.png' alt='Phil Neibaur Profile' />
                 </Col>
@@ -26,7 +23,7 @@ const AboutPage = () => {
                                     <Carousel.Item interval={6000}>
                                         <Row className='justify-content-center'>
                                             <Col xs={8}>
-                                                <Card.Text className='rLink' as="h3">I AM POSITIVE</Card.Text>
+                                                <Card.Text className='rYellow' as="h3">I AM POSITIVE</Card.Text>
                                                 <Card.Text>
                                                     Yep, I really am. There is lots to be positive about!
                                                     It's one of the first things you'll notice when we meet for the first time.
@@ -38,7 +35,7 @@ const AboutPage = () => {
                                     <Carousel.Item interval={6000}>
                                         <Row className='justify-content-center'>
                                             <Col xs={8}>
-                                                <Card.Text className='rLink' as="h3">I AM A THINKER</Card.Text>
+                                                <Card.Text className='rYellow' as="h3">I AM A THINKER</Card.Text>
                                                 <Card.Text>
                                                     Seriously, I love to analyze and even exhaust a topic to understand it.
                                                     It's what makes me such a great coder. I take the time to read the docs,
@@ -51,7 +48,7 @@ const AboutPage = () => {
                                     <Carousel.Item interval={6000}>
                                         <Row className='justify-content-center'>
                                             <Col xs={8}>
-                                                <Card.Text className='rLink' as="h3">I AM A PEOPLE PERSON</Card.Text>
+                                                <Card.Text className='rYellow' as="h3">I AM A PEOPLE PERSON</Card.Text>
                                                 <Card.Text>
                                                     Wait, but I'm a software dev, so how does that work?
                                                     That's right, I'm both and I love it! 🙌🏼
@@ -73,7 +70,7 @@ const AboutPage = () => {
                                 <Card.Title className='rLink' as="h1">FUN FACTS</Card.Title>
                                 <Card.Subtitle>Because I know you wana know</Card.Subtitle>
                                 <hr />
-                                <Card.Text className='rLink' as='h3'>My Favorites</Card.Text>
+                                <Card.Text className='rYellow' as='h3'>My Favorites</Card.Text>
                                 <Card.Text><strong> Book Series:</strong> The Stormlight Archive by Brandon Sanderson</Card.Text>
                                 <Card.Text><strong> TV Show:</strong> Avatar The Last Airbender</Card.Text>
                                 <Card.Text><strong> Place to visit:</strong> Western Australia</Card.Text>

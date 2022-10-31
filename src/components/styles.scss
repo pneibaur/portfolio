@@ -1,12 +1,19 @@
 $charcoal: #2c3531;
 $aquamarine: #116466;
+$blueShirt: #94d7d5;
 $sand: #d9b08c;
 $tan: #ffcb9a;
 $sky: #a4e0ef;
 $purpleShirt: #3a2a56;
+$lightPurple: #c3a0ff;
 $goldYellow: #fbbf2c;
 $tAquamarine: rgba(17, 101, 102, 0.8);
 $tPurpleShirt: rgba(58, 42, 86, 0.8);
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
 
 * {
     margin: 0;
@@ -21,12 +28,17 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
+    animation: 1.5s ease 0s 1 fadeIn;
 }
 
 // LAYOUT
 .navbar {
     min-height: 2em;
     font-size: 1.5em;
+}
+
+.navbar-custom .navbar-text {
+    color: $sky;
 }
 
 .layoutMain {
@@ -37,11 +49,12 @@ body {
 }
 
 .pageTitle {
-    font-size: 5em;
+    font-size: 4em;
     font-weight: 500;
-    color: $sky;
+    color: $goldYellow;
 }
 
+// FOOTER
 .page-footer {
     color: $sky;
     margin: .5em auto;
@@ -49,7 +62,7 @@ body {
 }
 
 .footerLogo {
-    max-width: 30px;
+    max-width: 50px;
     height: auto;
     margin: 0 .25em;
 }
@@ -68,6 +81,11 @@ body {
 .rLink {
     text-decoration: inherit;
     text-decoration: none;
+    color: $lightPurple;
+}
+.rYellow {
+    text-decoration: inherit;
+    text-decoration: none;
     color: $goldYellow;
 }
 
@@ -76,12 +94,6 @@ body {
     height: auto;
     margin: .25em;
 }
-
-// .homeLogo {
-//     max-width: 100px;
-//     height: auto;
-//     margin: 1em;
-// }
 
 // OTHER STUFF
 .h40 {
@@ -93,4 +105,8 @@ body {
 .h50 {
     width: 50%;
     margin: 1em auto;
+}
+
+.colBuff {
+    padding: 1em;
 }

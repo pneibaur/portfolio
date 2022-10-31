@@ -15,7 +15,7 @@ module.exports = {
     "name": "GatsbyJS",
     "short_name": "GatsbyJS",
     "start_url": "/",
-    "icon": "src/images/gatsby-icon.png",
+    "icon": "src/images/PRNfavicon.png",
   }
 },
 ]
