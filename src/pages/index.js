@@ -6,7 +6,7 @@ import { Row, Col, Container, Carousel } from "react-bootstrap"
 
 const IndexPage = () => {
   return (
-    <Layout pageTitle="PHIL R. NEIBAUR">
+    <Layout pageTitle={<StaticImage src="../images/PhilTitle.png" alt="Phil Neibaur" />} >
       <Container>
         <Row>
           <Col xs={12} md={6}>
