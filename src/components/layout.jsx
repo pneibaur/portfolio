@@ -2,7 +2,7 @@ import * as React from 'react'
 import Resume from 'url-loader?name=Phil-Neibaur-Resume.pdf!../../files/Resume.pdf'
 import "./styles.scss"
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { Container, Nav, Navbar, Row, Col } from 'react-bootstrap';
+import { Container, Nav, Navbar, Row } from 'react-bootstrap';
 import { StaticImage } from 'gatsby-plugin-image';
 
 

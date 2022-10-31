@@ -22,7 +22,7 @@ const AboutPage = () => {
                                 <Card.Title className='rLink' as='h1'>You're probably wondering about me right now.</Card.Title>
                                 <Card.Subtitle>That's perfectly fine! I wonder about myself too. Let me help you out and fill you in! 👏🏼 </Card.Subtitle>
                                 <hr />
-                                <Carousel>
+                                <Carousel indicators={false}>
                                     <Carousel.Item interval={6000}>
                                         <Row className='justify-content-center'>
                                             <Col xs={8}>
