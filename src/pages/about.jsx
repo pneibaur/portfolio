@@ -17,7 +17,7 @@ const AboutPage = () => {
                         <Card className='rCard'>
                             <Card.Body>
                                 <Card.Title className='rLink' as='h1'>You're probably wondering about me right now.</Card.Title>
-                                <Card.Subtitle>That's perfectly fine! I wonder about myself too. Let me help you out and fill you in! 👏🏼 </Card.Subtitle>
+                                <Card.Subtitle>That's perfectly fine - I wonder about myself too! <p>Let me fill you in 👏🏼 </p></Card.Subtitle>
                                 <hr />
                                 <Carousel indicators={false}>
                                     <Carousel.Item interval={6000}>
