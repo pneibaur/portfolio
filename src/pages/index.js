@@ -32,6 +32,17 @@ const IndexPage = () => {
             <StaticImage src='../images/posterProfile.png' alt="Phil Profile" />
           </Col>
         </Row>
+        <hr className="h50" />
+        <Row className="justify-content-center">
+          <Col xs={12} md={6}>
+            <p>
+              <i>"Phil is organized, optimistic, committed, driven, has amazing people skills, 
+                has expertise in data collection and analysis. He is a joy to supervise. 
+                His energy is infectious. He will be a credit to any organization."</i>
+            </p>
+            <p> - Barry Fell, Executive Director at Telos RTC</p>
+          </Col>
+        </Row>
       </Container>
 
     </Layout>
