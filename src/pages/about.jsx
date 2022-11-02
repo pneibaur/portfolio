@@ -6,7 +6,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 
 const AboutPage = () => {
     return (
-        <Layout pageTitle="👋🏼 HELLO THERE">
+        <Layout pageTitle={<StaticImage className='helloThere' src="../images/helloThere.png" alt="Hello There Wave" />}>
             <Row>
                 <Col xs={12} md={6}>
                     <StaticImage src='../images/classicProfile.png' alt='Phil Neibaur Profile' />
@@ -81,6 +81,24 @@ const AboutPage = () => {
                             </Card.Body>
                         </Card>
                     </Row>
+                </Col>
+            </Row>
+            <br />
+            <hr className="h50" />
+            <br />
+            <Row className='justify-content-center'>
+                <Col xs={12} md={8}>
+                    <p><i>
+                        "Phil was the director of our transportation department.
+                        While working with him over the last 5 years, Phil was one of the hardest workers I knew.
+                        He was determined, dedicated, focused, and gritty.
+                        He answered emails and texts in a timely manner with a problem-solving mindset.
+                        Phil has a personality that invites relationships.
+                        He is a loveable man who loves interacting with others in a way that makes one feel cared about.
+                        When Phil left our company he left a hole.
+                        He gave his heart to us and left a lasting friendship and impact."
+                    </i></p>
+                    <p> - Drew Davis, Clinical Director at Telos RTC</p>
                 </Col>
             </Row>
         </Layout>

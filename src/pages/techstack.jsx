@@ -7,8 +7,10 @@ import { StaticImage } from 'gatsby-plugin-image'
 const TechStack = () => {
     return (
         <Layout>
-            <Row>
-                <h1 className='pageTitle'>What I bring to the table</h1>
+            <Row className='justify-content-center'>
+                <Col xs={12} md={8}>
+                    <StaticImage className='techStackTitle' src='../images/techStackTitle.png' alt='What I bring to the table' />
+                </Col>
             </Row>
             <hr className='h40' />
             <br />
