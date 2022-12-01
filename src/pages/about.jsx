@@ -23,7 +23,7 @@ const AboutPage = () => {
                                         <Carousel.Item interval={6000}>
                                             <Row className='justify-content-center'>
                                                 <Col xs={8}>
-                                                    <Card.Text className='rYellow' as="h3">I AM POSITIVE</Card.Text>
+                                                    <Card.Text className='rLink' as="h3">I AM POSITIVE</Card.Text>
                                                     <Card.Text className='rCardText'>
                                                         Yep, I really am. There is lots to be positive about!
                                                         It's one of the first things you'll notice when we meet for the first time.
@@ -34,7 +34,7 @@ const AboutPage = () => {
                                         <Carousel.Item interval={6000}>
                                             <Row className='justify-content-center'>
                                                 <Col xs={8}>
-                                                    <Card.Text className='rYellow' as="h3">I AM A THINKER</Card.Text>
+                                                    <Card.Text className='rLink' as="h3">I AM A THINKER</Card.Text>
                                                     <Card.Text className='rCardText'>
                                                         Seriously, I love to analyze and even exhaust a topic to understand it.
                                                         It's what makes me such a great coder. I take the time to read the docs,
@@ -46,7 +46,7 @@ const AboutPage = () => {
                                         <Carousel.Item interval={6000}>
                                             <Row className='justify-content-center'>
                                                 <Col xs={8}>
-                                                    <Card.Text className='rYellow' as="h3">I AM A PEOPLE PERSON</Card.Text>
+                                                    <Card.Text className='rLink' as="h3">I AM A PEOPLE PERSON</Card.Text>
                                                     <Card.Text className='rCardText'>
                                                         I absolutely enjoy making friends,
                                                         working in teams, and creating solutions!
@@ -59,7 +59,7 @@ const AboutPage = () => {
                                         <Carousel.Item interval={6000}>
                                             <Row className='justify-content-center'>
                                                 <Col xs={8}>
-                                                    <Card.Text className='rYellow' as="h3">MY FAVORITES</Card.Text>
+                                                    <Card.Text className='rLink' as="h3">MY FAVORITES</Card.Text>
                                                     <Card.Text className='rCardText'><strong> AUTHOR:</strong> Brandon Sanderson</Card.Text>
                                                     <Card.Text className='rCardText'><strong> TV SHOW:</strong> Avatar the Last Airbender</Card.Text>
                                                     <Card.Text className='rCardText'><strong> PLACE TO VISIT:</strong> Western Australia</Card.Text>
@@ -77,7 +77,7 @@ const AboutPage = () => {
                 <br />
                 <Row className='justify-content-center'>
                     <Col xs={12} md={8}>
-                        <p><i>
+                        <p className='rYellow'><i>
                             "Phil was the director of our transportation department.
                             While working with him over the last 5 years, Phil was one of the hardest workers I knew.
                             He was determined, dedicated, focused, and gritty.
@@ -87,7 +87,7 @@ const AboutPage = () => {
                             When Phil left our company he left a hole.
                             He gave his heart to us and left a lasting friendship and impact."
                         </i></p>
-                        <p> - Drew Davis, Clinical Director at Telos RTC</p>
+                        <p className='rYellow'> - Drew Davis, Clinical Director at Telos RTC</p>
                     </Col>
                 </Row>
             </Container>

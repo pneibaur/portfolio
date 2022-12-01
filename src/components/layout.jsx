@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Resume from 'url-loader?name=Phil-Neibaur-Resume.pdf!../../files/Resume.pdf'
+import Resume from 'url-loader?name=Resume.pdf!../../files/Resume.pdf'
 import "./styles.scss"
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Container, Nav, Navbar, Row, Modal, Button } from 'react-bootstrap';

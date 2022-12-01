@@ -9,7 +9,7 @@ $lightPurple: #c3a0ff;
 $goldYellow: #fbbf2c;
 $tAquamarine: rgba(17, 101, 102, 0.8);
 $tPurpleShirt: rgba(58, 42, 86, 0.8);
-$grey: #dedad7;
+$grey: #eeeeee;
 
 @keyframes fadeIn {
     0% {opacity: 0;}
@@ -137,9 +137,4 @@ body {
     display: flex;
     justify-content: center;
     align-self: center;
-}
-
-.funFact {
-    background-color: rgba(0, 0, 0, 0);
-    color: $grey;
 }

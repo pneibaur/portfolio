@@ -20,10 +20,10 @@ const IndexPage = () => {
               <br /><br />
               <Col xs={12} md={8}>
                 <Carousel indicators={false} nextIcon="" prevIcon="" interval={2000}>
-                  <Carousel.Item><h2>FULL <hr/> STACK <hr/> ENGINEER</h2></Carousel.Item>
-                  <Carousel.Item><h2>FRONT <hr/> END <hr/> DESIGNER</h2></Carousel.Item>
-                  <Carousel.Item><h2>BACK <hr/> END <hr/> DEV</h2></Carousel.Item>
-                  <Carousel.Item><h2>FULL <hr/> FLEDGED <hr/> NERD</h2></Carousel.Item>
+                  <Carousel.Item className="rCardText"><h2>FULL <hr/> STACK <hr/> ENGINEER</h2></Carousel.Item>
+                  <Carousel.Item className="rCardText"><h2>FRONT <hr/> END <hr/> DESIGNER</h2></Carousel.Item>
+                  <Carousel.Item className="rCardText"><h2>BACK <hr/> END <hr/> DEV</h2></Carousel.Item>
+                  <Carousel.Item className="rCardText"><h2>FULL <hr/> FLEDGED <hr/> NERD</h2></Carousel.Item>
                 </Carousel>
               </Col>
             </Row>
@@ -35,12 +35,12 @@ const IndexPage = () => {
         <hr className="h50" />
         <Row className="justify-content-center">
           <Col xs={12} md={6}>
-            <p>
+            <p className='rYellow'>
               <i>"Phil is organized, optimistic, committed, driven, has amazing people skills, 
                 has expertise in data collection and analysis. He is a joy to supervise. 
                 His energy is infectious. He will be a credit to any organization."</i>
             </p>
-            <p> - Barry Fell, Executive Director at Telos RTC</p>
+            <p className='rYellow'> - Barry Fell, Executive Director at Telos RTC</p>
           </Col>
         </Row>
       </Container>
