@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import Resume from 'url-loader?name=Resume.pdf!../../files/Resume.pdf'
 import "./styles.scss"
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Container, Nav, Navbar, Row, Modal, Button } from 'react-bootstrap';
@@ -51,7 +50,7 @@ const Layout = ({ pageTitle, children }) => {
             <Modal show={show} aria-labelledby="contained-modal-title-vcenter" centered>
                 <Modal.Header><Modal.Title>DOWNLOAD RESUME</Modal.Title></Modal.Header>
                 <Modal.Footer>
-                    <a href={Resume} download>
+                    <a href={`../../Phillip_Neibaur_Resume.pdf`} download>
                         <Button variant='success'>DOWNLOAD</Button>
                     </a>
                     <Button variant='danger' onClick={handleClose}>CLOSE</Button>
