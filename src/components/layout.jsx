@@ -21,9 +21,8 @@ const Layout = ({ pageTitle, children }) => {
                         <Nav >
                             <Nav.Link className='navbar-custom navbar-text navLi' href='/' >HOME</Nav.Link>
                             <Nav.Link className='navbar-custom navbar-text navLi' href='/about' >ABOUT</Nav.Link>
-                            <Nav.Link className='navbar-custom navbar-text navLi' href='/techstack' >EXPERIENCE</Nav.Link>
+                            <Nav.Link className='navbar-custom navbar-text navLi' href='/techstack' >TECHNOLOGY</Nav.Link>
                             <Nav.Link className='navbar-custom navbar-text navLi' href='/projects' >PORTFOLIO</Nav.Link>
-                            {/* <Nav.Link className='text-light' href={Resume} download >RESUME</Nav.Link> */}
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>

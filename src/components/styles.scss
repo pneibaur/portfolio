@@ -118,3 +118,14 @@ body {
 .techStackTitle {
     max-width: 60rem;
 }
+
+.skillCard {
+    min-height: 20em;
+}
+
+.skills {
+    max-width: 40em;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
